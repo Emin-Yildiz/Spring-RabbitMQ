@@ -1,5 +1,7 @@
 # RabbitMQ
 
+![rabbitmq image](./img/rabbitmq_logo.png)
+
 ## RabbitMQ nedir ?
 
 RabbitMQ açık kaynak kodlu bir mesaj kuyruk sistemidir. Bu sistem FIFO(First In First Out) prensibini temel alır. Bu sayede mesajlar sıraya gönderildikleri sıra ile alıcılara iletilirler.
