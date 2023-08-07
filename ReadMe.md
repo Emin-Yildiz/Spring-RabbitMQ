@@ -18,6 +18,18 @@ FIFO mekanizması, mesajların doğru bir sıra ile iletilmesi ve uygulamalar ar
 
 Bir uygulamamız olduğunu varsayalım. Bu uygulamaya kullanıcı bir istek attığı zaman, bu isteğe anlık cevap veremiyorsak yada bu istek sonucu yoğun zaman alacak bir işlem gerçekleşecek ise isteğin karşılığını arka planda asenkron bir şekilde işleyip uygulamanın işlem yoğunluğunu azaltmamız gerektiği #durumlarda kullanılır.
 
+### Avantajlar
+
+- **Kolay Kullanım:** RabbitMQ, basit kurulum ve kullanımı ile bilinir.
+- **Geniş Protokol Desteği:** AMQP, MQTT, STOMP gibi farklı protokollerle uyumludur.
+- **Esneklik:** Farklı senaryolara ve kullanım durumlarına uygun esnek yapılandırma seçenekleri sunar.
+- **Topluluk Desteği:** Geniş bir açık kaynak topluluğu ve belgelendirmeye sahiptir.
+
+### Dezavantajlar
+
+- **Performans Sınırlamaları:** Rakiplerine göre yüksek işlem yüklerinde performansı daha düşük olabilir.
+- **Kapsüllü Depolama Eksikliği:** Kafka gibi dayanıklı ve kapsüllü depolama sunmaz.
+
 ## RabbitMQ'nun İşleyişi
 
 RabbitMQ, **Publisher(Verici)** ve **Consumer(Alıcı)** ve **Queue(Kuyruk)** olmak üzere 3'e ayrılır.
